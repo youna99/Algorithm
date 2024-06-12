@@ -37,6 +37,6 @@ function solution(array) {
         return -1;
     } else {
         return result;
-        // 그렇지않으면, 최빈값 result를 반환.
+        // 그렇지않으면, 최빈값 result를 반환함.
     }
 };
