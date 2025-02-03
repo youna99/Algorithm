@@ -1,0 +1,10 @@
+let fs = require('fs');
+let input = fs.readFileSync('/dev/stdin').toString().split(' ');
+let a = parseInt(input[0]);
+let b = parseInt(input[1]);
+let arr = [a + b, a - b, a * b, parseInt(a / b), a % b];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+console.log(arr[4]);
